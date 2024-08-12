@@ -275,6 +275,42 @@ nav button i {
   font-size: 15px;
 }
 
+
+.hero .left-section .top .buttons button.doc,
+.about .row .buttons button.doc {
+  background: #000;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .right .buttons .doc {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero .left-section .top .buttons button.doc:hover,
+.about .row .buttons button.doc:hover {
+  background: #fff;
+  color: #000;
+  border-color: #dedede;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.342);
+}
+
+
 .projects {
   padding: 0 24px;
   background: #f5f5f5;
@@ -550,6 +586,11 @@ footer a:hover {
     max-height: 250px;
   }
 
+  .about .right .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .projects .inner {
     padding: 50px 40px;
   }
